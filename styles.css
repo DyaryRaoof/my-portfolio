@@ -1,0 +1,27 @@
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+#my-logo-nav-item {
+  flex: 10;
+}
+
+#hamburger-nav-item {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .left-nav-items {
+    display: none;
+  }
+
+  #hamburger-nav-item {
+    display: inline;
+  }
+}
