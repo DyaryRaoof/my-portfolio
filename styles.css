@@ -17,18 +17,22 @@ body {
   border-radius: 0 0 0 150px;
 }
 
-nav ul {
+header ul {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
 }
 
-nav li {
+header li {
   padding: 10px;
 }
 
 #my-logo-nav-item {
   flex: 10;
+}
+
+#my-logo-nav-item a {
+  text-decoration: none;
 }
 
 #hamburger-nav-item {
@@ -63,18 +67,18 @@ nav li {
 #hero-area-content ul {
   list-style-type: none;
   display: flex;
+  justify-content: flex-start;
 }
 
 #hero-area-content li {
   padding-right: 10px;
-  padding-left: -20px;
   flex: 0;
   cursor: pointer;
 }
 
 #hero-area-content li span {
   position: relative;
-  left: -35px;
+  left: -50px;
 }
 
 @media screen and (max-width: 500px) {
@@ -84,6 +88,7 @@ nav li {
 
   #hamburger-nav-item {
     display: inline;
+    margin-right: 36px;
   }
 
   #hero-section {
