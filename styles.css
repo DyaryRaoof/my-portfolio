@@ -4,7 +4,7 @@ nav ul {
   list-style-type: none;
 }
 
-li {
+nav li {
   padding: 10px;
 }
 
@@ -16,6 +16,46 @@ li {
   display: none;
 }
 
+#hero-section {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+}
+
+#hero-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#hero-area-content > * {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#lets-connect-label {
+  color: #7f8cff;
+  font-weight: bold;
+}
+
+#hero-area-content ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#hero-area-content li {
+  padding-right: 10px;
+  padding-left: -20px;
+  flex: 0;
+  cursor: pointer;
+}
+
+#hero-area-content li span {
+  position: relative;
+  left: -35px;
+}
+
 @media screen and (max-width: 500px) {
   .left-nav-items {
     display: none;
@@ -23,5 +63,13 @@ li {
 
   #hamburger-nav-item {
     display: inline;
+  }
+
+  #hero-section {
+    background-image: url("images/header-bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
   }
 }
