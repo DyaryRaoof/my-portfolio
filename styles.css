@@ -7,6 +7,14 @@ body {
   font-family: "Poppins Medium", sans-serif;
   font-style: normal;
   font-weight: normal;
+  background-color: #e5e5e5;
+  margin: 0px;
+}
+
+.container {
+  background-color: white;
+  margin-top: -20px;
+  border-radius: 0px 0px 0px 150px;
 }
 
 nav ul {
@@ -32,7 +40,9 @@ nav li {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  background-color: white;
   height: 100vh;
+  border-radius: 0px 0px 0px 150px;
 }
 
 #hero-section h1 {
