@@ -14,7 +14,7 @@ body {
 .container {
   background-color: white;
   margin-top: -20px;
-  border-radius: 0px 0px 0px 150px;
+  border-radius: 0 0 0 150px;
 }
 
 nav ul {
