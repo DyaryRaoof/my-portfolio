@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("fonts/Poppins/Poppins-Medium.ttf");
+}
+
+body {
+  font-family: "Poppins Medium";
+  font-style: normal;
+  font-weight: normal;
+}
+
 nav ul {
   display: flex;
   justify-content: flex-end;
