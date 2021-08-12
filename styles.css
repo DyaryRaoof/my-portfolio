@@ -42,7 +42,7 @@ nav li {
   background-position: center;
   background-color: white;
   height: 100vh;
-  border-radius: 0px 0px 0px 150px;
+  border-radius: 0 0 0 150px;
 }
 
 #hero-section h1 {
