@@ -81,6 +81,85 @@ header li {
   left: -50px;
 }
 
+#work-area-grid {
+  display: grid;
+  grid-row-gap: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.work-card-content {
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+#work-card-tonic-top-links {
+  justify-content: flex-start;
+}
+
+#work-card-tonic-top-links li:first-child {
+  list-style: none;
+  font-weight: 600;
+}
+
+#work-card-tonic-top-links li {
+  padding-right: 20px;
+}
+#work-card-tonic-top-links,
+.work-card-languages-ul li {
+  position: relative;
+  left: -40px;
+}
+
+.work-card-languages-ul {
+  list-style: none;
+  color: #6070ff;
+}
+
+.work-card-languages-ul li {
+  background-color: #ebebff;
+  padding: 4px 12px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.work-card-top-links-2-3 {
+  color: #6b778c;
+}
+
+.work-card-content button {
+  border-radius: 5px;
+  color: #396df2;
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #396df2;
+}
+
+.work-card {
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+  margin-bottom: 4%;
+  margin-right: 7%;
+  margin-left: 7%;
+  background-color: white;
+  padding: 20px;
+}
+
+.first-card {
+  margin-top: 7%;
+}
+
+.work-card-mobile-image {
+  display: none;
+}
+
+.image-to-the-left {
+  flex-direction: row-reverse;
+}
+
 @media screen and (max-width: 500px) {
   .left-nav-items {
     display: none;
@@ -97,5 +176,16 @@ header li {
     background-size: contain;
     background-position: center;
     height: 100vh;
+  }
+
+  .work-card {
+    flex-direction: column;
+  }
+
+  .work-card-desktop-image {
+    display: none;
+  }
+  .work-card-mobile-image {
+    display: block;
   }
 }
