@@ -2,7 +2,7 @@
 
 # Dyary's Portfolio
 
-> this is my portfolio website. It includes info about me, how to contact me and my achivemets and creations as a web developer.
+> this is my portfolio website. It includes info about me, how to contact me and my achivemets and creations as a web developer. It's created with CSS and HTML and used VS Code as my code editor. the fonts I used for this website is Poppins and this is for the whole website. I used Flexbox to style my nav items and social media links. I used media queries to make it responsive. so i works well on mobile devices.
 
 ![screenshot](https://i.imgur.com/vWXwTaR.png)
 
@@ -12,10 +12,6 @@ look thorugh the website to see my work and contact me if need.
 
 - HTML and CSS
 - VS Code, Chrome DevTools
-
-## Live Demo
-
-[Live Demo Link](https://i.imgur.com/vWXwTaR.png)
 
 ## Getting Started
 
@@ -40,11 +36,11 @@ run live-server.
 
 ## Authors
 
-👤 **Author1**
+👤 **Dyary Raoof Bayz**
 
-- GitHub: [@githubhandle](https://github.com/DyaryRaoof)
-- Twitter: [@twitterhandle](https://twitter.com/DyaryRaoof)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dyary-raoof-baiz-agha-b79444155)
+- GitHub: [@DyaryRaoof](https://github.com/DyaryRaoof)
+- Twitter: [@DyaryRaoof](https://twitter.com/DyaryRaoof)
+- LinkedIn: [dyary-raoof-baiz-agha-b79444155](https://www.linkedin.com/in/dyary-raoof-baiz-agha-b79444155)
 
 ## 🤝 Contributing
 
