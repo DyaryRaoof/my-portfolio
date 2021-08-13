@@ -121,15 +121,15 @@ header li {
   border-radius: 8px;
 }
 
+.work-card-tonic-top-links li:first-child {
+  list-style: none;
+  font-weight: 600;
+}
+
 #hero-area-content li {
   padding-right: 10px;
   flex: 0;
   cursor: pointer;
-}
-
-.work-card-tonic-top-links li:first-child {
-  list-style: none;
-  font-weight: 600;
 }
 
 #hero-area-content li span {
