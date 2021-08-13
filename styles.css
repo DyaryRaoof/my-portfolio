@@ -120,6 +120,13 @@ header li {
   left: -40px;
 }
 
+.work-card-languages-ul li {
+  background-color: #ebebff;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 4px;
+}
+
 .work-card-tonic-top-links li:first-child {
   list-style: none;
   font-weight: 600;
