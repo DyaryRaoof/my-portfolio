@@ -114,11 +114,10 @@ header li {
   cursor: pointer;
 }
 
+.work-card-tonic-top-links,
 .work-card-languages-ul li {
-  background-color: #ebebff;
-  padding: 4px 12px;
-  margin-right: 10px;
-  border-radius: 8px;
+  position: relative;
+  left: -40px;
 }
 
 .work-card-tonic-top-links li:first-child {
@@ -153,12 +152,6 @@ header li {
 
 .work-card-tonic-top-links {
   justify-content: flex-start;
-}
-
-.work-card-tonic-top-links,
-.work-card-languages-ul li {
-  position: relative;
-  left: -40px;
 }
 
 .work-card-languages-ul {
