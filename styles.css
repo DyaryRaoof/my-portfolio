@@ -49,9 +49,24 @@ header li {
   border-radius: 0 0 0 150px;
 }
 
+.work-card-content h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+}
+
 #hero-section h1 {
   font-size: 48px;
   font-weight: bold;
+}
+
+.about-section-content > * {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.about-drop-down-icons-middle span > * {
+  flex: 0;
 }
 
 #hero-area-content > * {
@@ -59,15 +74,62 @@ header li {
   margin-left: 20%;
 }
 
-#lets-connect-label {
+.lets-connect-label {
   color: #7f8cff;
   font-weight: bold;
+}
+
+.about-section-content ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #hero-area-content ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
+}
+
+.about-drop-down-icons-middle span {
+  background: #f7f7f9;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  height: 500px;
+}
+
+.about-section-content li span {
+  position: relative;
+  left: -50px;
+}
+
+.work-card-tonic-top-links li {
+  padding-right: 20px;
+}
+
+.about-section-content li {
+  padding-right: 10px;
+  flex: 0;
+  cursor: pointer;
+}
+
+.work-card-tonic-top-links,
+.work-card-languages-ul li {
+  position: relative;
+  left: -40px;
+}
+
+.work-card-languages-ul li {
+  background-color: #ebebff;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 4px;
+}
+
+.work-card-tonic-top-links li:first-child {
+  list-style: none;
+  font-weight: 600;
 }
 
 #hero-area-content li {
@@ -79,6 +141,135 @@ header li {
 #hero-area-content li span {
   position: relative;
   left: -50px;
+}
+
+#work-area-grid {
+  display: grid;
+  grid-row-gap: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.work-card-content {
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.work-card-tonic-top-links {
+  justify-content: flex-start;
+}
+
+.work-card-languages-ul {
+  list-style: none;
+  color: #6070ff;
+}
+
+.work-card-top-links-2-3 {
+  color: #6b778c;
+}
+
+.styled-button {
+  border-radius: 5px;
+  color: #396df2;
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #396df2;
+}
+
+.styled-button:hover {
+  color: white;
+  background-color: #6070ff;
+}
+
+.styled-button:active {
+  color: white;
+  background-color: #2230d2;
+}
+
+.styled-button:disabled {
+  color: #5e6c84;
+  background-color: white;
+  border: 1px solid #5e6c84;
+}
+
+.work-card {
+  border-radius: 24px;
+  margin-bottom: 4%;
+  margin-right: 7%;
+  margin-left: 7%;
+  background-color: white;
+  padding: 20px;
+}
+
+.first-card {
+  margin-top: 7%;
+}
+
+.work-card-mobile-image {
+  display: none;
+}
+
+.image-to-the-left {
+  flex-direction: row-reverse;
+}
+
+#about-section {
+  background-color: white;
+  border-radius: 0 150px 0 0;
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+}
+
+#about-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.language-icons-header-li {
+  justify-content: space-between;
+  margin-right: 20%;
+  margin-top: 15%;
+}
+
+.about-section-content {
+  flex: 5;
+}
+
+#about-section-dropdowns {
+  flex: 4;
+  list-style: none;
+  margin-left: 5%;
+  width: 100%;
+}
+
+#about-section-dropdowns li {
+  padding: 10px;
+}
+
+.about-drop-down-icons-middle div {
+  background: #f7f7f9;
+  padding: 10px;
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  position: relative;
+  left: -10px;
+}
+
+#about-section-dropdowns hr {
+  width: 80%;
+  display: block;
+  position: relative;
+  left: -40px;
+}
+
+.about-2-3-dropdowns {
+  justify-content: space-between;
+  margin-right: 20%;
 }
 
 @media screen and (max-width: 500px) {
@@ -97,5 +288,30 @@ header li {
     background-size: contain;
     background-position: center;
     height: 100vh;
+  }
+
+  .work-card {
+    flex-direction: column;
+  }
+
+  .work-card-desktop-image {
+    display: none;
+  }
+
+  .work-card-mobile-image {
+    display: block;
+  }
+
+  #about-section {
+    flex-direction: column;
+  }
+
+  .about-drop-down-icons-middle div {
+    background: #f7f7f9;
+    padding: 10px;
+    margin: 10px;
+    width: 72%;
+    height: 80%;
+    display: block;
   }
 }
