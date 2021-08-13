@@ -93,9 +93,19 @@ header li {
   left: -50px;
 }
 
+.work-card-tonic-top-links li {
+  padding-right: 20px;
+}
+
 .work-card-tonic-top-links li:first-child {
   list-style: none;
   font-weight: 600;
+}
+
+.about-section-content li {
+  padding-right: 10px;
+  flex: 0;
+  cursor: pointer;
 }
 
 #hero-area-content li {
@@ -125,10 +135,6 @@ header li {
 
 .work-card-tonic-top-links {
   justify-content: flex-start;
-}
-
-.work-card-tonic-top-links li {
-  padding-right: 20px;
 }
 
 .work-card-tonic-top-links,
@@ -203,12 +209,6 @@ header li {
   font-weight: bold;
 }
 
-.about-section-content li {
-  padding-right: 10px;
-  flex: 0;
-  cursor: pointer;
-}
-
 .language-icons-header-li {
   justify-content: space-between;
   margin-right: 20%;
@@ -221,11 +221,9 @@ header li {
 
 #about-section-dropdowns {
   flex: 4;
-}
-
-#about-section-dropdowns {
   list-style: none;
 }
+
 #about-section-dropdowns li {
   padding: 10px;
 }
