@@ -54,20 +54,48 @@ header li {
   font-weight: bold;
 }
 
+.about-section-content > * {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
 #hero-area-content > * {
   margin-right: 20%;
   margin-left: 20%;
 }
 
-#lets-connect-label {
+.lets-connect-label {
   color: #7f8cff;
   font-weight: bold;
+}
+
+.about-section-content ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #hero-area-content ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
+}
+
+.work-card-languages-ul li {
+  background-color: #ebebff;
+  padding: 4px 12px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.about-section-content li span {
+  position: relative;
+  left: -50px;
+}
+
+.work-card-tonic-top-links li:first-child {
+  list-style: none;
+  font-weight: 600;
 }
 
 #hero-area-content li {
@@ -95,19 +123,15 @@ header li {
   padding-right: 5px;
 }
 
-#work-card-tonic-top-links {
+.work-card-tonic-top-links {
   justify-content: flex-start;
 }
 
-#work-card-tonic-top-links li:first-child {
-  list-style: none;
-  font-weight: 600;
-}
-
-#work-card-tonic-top-links li {
+.work-card-tonic-top-links li {
   padding-right: 20px;
 }
-#work-card-tonic-top-links,
+
+.work-card-tonic-top-links,
 .work-card-languages-ul li {
   position: relative;
   left: -40px;
@@ -116,13 +140,6 @@ header li {
 .work-card-languages-ul {
   list-style: none;
   color: #6070ff;
-}
-
-.work-card-languages-ul li {
-  background-color: #ebebff;
-  padding: 4px 12px;
-  margin-right: 10px;
-  border-radius: 8px;
 }
 
 .work-card-top-links-2-3 {
@@ -142,10 +159,12 @@ header li {
   color: white;
   background-color: #6070ff;
 }
+
 .styled-button:active {
   color: white;
   background-color: #2230d2;
 }
+
 .styled-button:disabled {
   color: #5e6c84;
   background-color: white;
@@ -178,31 +197,16 @@ header li {
   height: 160vh;
   border-radius: 0 150px 0 0;
 }
+
 #about-section h1 {
   font-size: 48px;
   font-weight: bold;
-}
-
-.about-section-content > * {
-  margin-right: 20%;
-  margin-left: 20%;
-}
-
-.about-section-content ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-start;
 }
 
 .about-section-content li {
   padding-right: 10px;
   flex: 0;
   cursor: pointer;
-}
-
-.about-section-content li span {
-  position: relative;
-  left: -50px;
 }
 
 .language-icons-header-li {
