@@ -49,6 +49,12 @@ header li {
   border-radius: 0 0 0 150px;
 }
 
+.work-card-content h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+}
+
 #hero-section h1 {
   font-size: 48px;
   font-weight: bold;
@@ -57,6 +63,10 @@ header li {
 .about-section-content > * {
   margin-right: 20%;
   margin-left: 20%;
+}
+
+.about-drop-down-icons-middle span > * {
+  flex: 0;
 }
 
 #hero-area-content > * {
@@ -81,11 +91,12 @@ header li {
   justify-content: flex-start;
 }
 
-.work-card-languages-ul li {
-  background-color: #ebebff;
-  padding: 4px 12px;
-  margin-right: 10px;
-  border-radius: 8px;
+.about-drop-down-icons-middle span {
+  background: #f7f7f9;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  height: 500px;
 }
 
 .about-section-content li span {
@@ -97,21 +108,28 @@ header li {
   padding-right: 20px;
 }
 
-.work-card-tonic-top-links li:first-child {
-  list-style: none;
-  font-weight: 600;
-}
-
 .about-section-content li {
   padding-right: 10px;
   flex: 0;
   cursor: pointer;
 }
 
+.work-card-languages-ul li {
+  background-color: #ebebff;
+  padding: 4px 12px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
 #hero-area-content li {
   padding-right: 10px;
   flex: 0;
   cursor: pointer;
+}
+
+.work-card-tonic-top-links li:first-child {
+  list-style: none;
+  font-weight: 600;
 }
 
 #hero-area-content li span {
@@ -228,14 +246,6 @@ header li {
   padding: 10px;
 }
 
-.about-drop-down-icons-middle span {
-  background: #f7f7f9;
-  padding: 10px;
-  margin: 10px;
-  width: 400px;
-  height: 500px;
-}
-
 .about-drop-down-icons-middle div {
   background: #f7f7f9;
   padding: 10px;
@@ -252,20 +262,11 @@ header li {
   left: -60px;
 }
 
-.about-drop-down-icons-middle span > * {
-  flex: 0;
-}
-
 .about-2-3-dropdowns {
   justify-content: space-between;
   margin-right: 20%;
 }
 
-.work-card-content h1 {
-  color: black;
-  font-weight: bold;
-  font-size: 40px;
-}
 @media screen and (max-width: 500px) {
   .left-nav-items {
     display: none;
@@ -291,6 +292,7 @@ header li {
   .work-card-desktop-image {
     display: none;
   }
+
   .work-card-mobile-image {
     display: block;
   }
