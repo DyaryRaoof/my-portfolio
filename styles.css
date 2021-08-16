@@ -121,10 +121,12 @@ header li {
 }
 
 .work-card-languages-ul li {
+  display: inline;
   background-color: #ebebff;
   border-radius: 4px;
   padding: 8px;
   margin: 4px;
+  float: left;
 }
 
 .work-card-tonic-top-links li:first-child {
