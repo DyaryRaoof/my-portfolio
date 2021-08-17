@@ -60,6 +60,11 @@ header li {
   font-weight: bold;
 }
 
+form > * {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .about-section-content > * {
   margin-right: 20%;
   margin-left: 20%;
@@ -305,11 +310,6 @@ header li {
 form {
   flex-direction: column;
   align-items: center;
-}
-
-form > * {
-  display: block;
-  margin-bottom: 20px;
 }
 
 input,
