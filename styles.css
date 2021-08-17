@@ -314,4 +314,49 @@ header li {
     height: 80%;
     display: block;
   }
+
+  .contact-section {
+    flex-direction: column;
+    background: #6070ff;
+    height: 100vh;
+    background-image: url("images/contact-me-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+
+  #contact-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+  }
+
+  #contact-detail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ebebff;
+  }
+
+  form > * {
+    display: block;
+  }
+
+  input {
+    border-radius: 0.4rem;
+  }
+
+  textarea {
+    border-radius: 0.4rem;
+  }
+
+  input::placeholder {
+    color: #172b4d;
+  }
+
+  ::placeholder {
+    font-family: "Poppins Medium", sans-serif;
+  }
 }
