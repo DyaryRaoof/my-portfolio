@@ -318,11 +318,16 @@ header li {
   .contact-section {
     flex-direction: column;
     background: #6070ff;
-    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
     background-image: url("images/contact-me-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
+    text-align: center;
+    padding: 8%;
+    border-top-left-radius: 150px;
   }
 
   #contact-header {
@@ -342,14 +347,19 @@ header li {
 
   form > * {
     display: block;
+    margin-bottom: 20px;
   }
 
-  input {
-    border-radius: 0.4rem;
+  input,
+  textarea {
+    border-radius: 8px;
+    border: 0;
+    padding: 10px;
+    width: 75vw;
   }
 
   textarea {
-    border-radius: 0.4rem;
+    height: 30vh;
   }
 
   input::placeholder {
@@ -358,5 +368,10 @@ header li {
 
   ::placeholder {
     font-family: "Poppins Medium", sans-serif;
+  }
+
+  #contact-section-container {
+    background-color: white;
+    margin-top: -50px;
   }
 }
