@@ -272,6 +272,71 @@ header li {
   margin-right: 20%;
 }
 
+.contact-section {
+  flex-direction: column;
+  background: #6070ff;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("images/contact-form-bg-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  text-align: center;
+  padding: 8% 30%;
+  border-top-left-radius: 150px;
+}
+
+#contact-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+#contact-detail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ebebff;
+}
+
+form {
+  flex-direction: column;
+  align-items: center;
+}
+
+form > * {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  border-radius: 8px;
+  border: 0;
+  padding: 10px;
+  width: 30vw;
+}
+
+textarea {
+  height: 30vh;
+}
+
+input::placeholder {
+  color: #172b4d;
+}
+
+::placeholder {
+  font-family: "Poppins Medium", sans-serif;
+}
+
+#contact-section-container {
+  background-color: white;
+  margin-top: -126px;
+}
+
 @media screen and (max-width: 500px) {
   .left-nav-items {
     display: none;
@@ -316,62 +381,25 @@ header li {
   }
 
   .contact-section {
-    flex-direction: column;
-    background: #6070ff;
-    align-items: center;
-    justify-content: center;
     height: 130vh;
     background-image: url("images/contact-me-bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    text-align: center;
     padding: 8%;
-    border-top-left-radius: 150px;
   }
 
-  #contact-header {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
-    color: #fff;
+  form {
+    align-items: flex-start;
   }
 
-  #contact-detail {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: #ebebff;
-  }
-
-  form > * {
-    display: block;
-    margin-bottom: 20px;
+  form button {
+    width: 25vw;
   }
 
   input,
   textarea {
-    border-radius: 8px;
-    border: 0;
-    padding: 10px;
     width: 75vw;
   }
 
-  textarea {
-    height: 30vh;
-  }
-
-  input::placeholder {
-    color: #172b4d;
-  }
-
-  ::placeholder {
-    font-family: "Poppins Medium", sans-serif;
-  }
-
   #contact-section-container {
-    background-color: white;
     margin-top: -50px;
   }
 }
