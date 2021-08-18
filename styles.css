@@ -17,6 +17,10 @@ body {
   border-radius: 0 0 0 150px;
 }
 
+#hero-area-content {
+  padding-top: 7%;
+}
+
 header ul {
   display: flex;
   justify-content: flex-end;
@@ -25,6 +29,11 @@ header ul {
 
 header li {
   padding: 10px;
+}
+
+.left-nav-items a {
+  text-decoration: none;
+  color: #344563;
 }
 
 #my-logo-nav-item {
