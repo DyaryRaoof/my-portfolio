@@ -363,7 +363,12 @@ input::placeholder {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 100vh;
+    height: 110vh;
+  }
+
+  #hero-area-content {
+    padding-top: 0;
+    margin-bottom: 10%;
   }
 
   .work-card {
