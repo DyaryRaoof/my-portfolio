@@ -17,6 +17,10 @@ body {
   border-radius: 0 0 0 150px;
 }
 
+#hero-area-content {
+  padding-top: 7%;
+}
+
 header ul {
   display: flex;
   justify-content: flex-end;
@@ -25,6 +29,11 @@ header ul {
 
 header li {
   padding: 10px;
+}
+
+.left-nav-items a {
+  text-decoration: none;
+  color: #344563;
 }
 
 #my-logo-nav-item {
@@ -337,6 +346,8 @@ input::placeholder {
   margin-top: -126px;
 }
 
+/* i have already implemented the desktop version. */
+
 @media screen and (max-width: 500px) {
   .left-nav-items {
     display: none;
@@ -352,7 +363,12 @@ input::placeholder {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 100vh;
+    height: 110vh;
+  }
+
+  #hero-area-content {
+    padding-top: 0;
+    margin-bottom: 10%;
   }
 
   .work-card {
