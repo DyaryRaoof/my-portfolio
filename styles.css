@@ -44,16 +44,6 @@ header li {
   animation-duration: 1s;
 }
 
-.nav-items-ul li:first-child {
-  margin-right: auto;
-}
-
-@keyframes rotate {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .left-nav-items a:hover {
   color: #4053fc;
 }
@@ -374,6 +364,16 @@ input::placeholder {
 
 .work-card-desktop-image:hover {
   transform: scale(1.05, 1.05);
+}
+
+.nav-items-ul li:first-child {
+  margin-right: auto;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media screen and (max-width: 500px) {
