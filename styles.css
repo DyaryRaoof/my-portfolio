@@ -40,7 +40,8 @@ header li {
 }
 
 #my-logo-nav-item {
-  flex: 10;
+  animation-name: rotate;
+  animation-duration: 1s;
 }
 
 .left-nav-items a:hover {
@@ -155,6 +156,16 @@ form > * {
 
 .work-card-languages-ul li:hover {
   transform: translate(3px);
+}
+
+.nav-items-ul li:first-child {
+  margin-right: auto;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 #hero-area-content li {
