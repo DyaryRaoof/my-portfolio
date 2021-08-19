@@ -158,6 +158,16 @@ form > * {
   transform: translate(3px);
 }
 
+.nav-items-ul li:first-child {
+  margin-right: auto;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 #hero-area-content li {
   padding-right: 10px;
   flex: 0;
@@ -364,16 +374,6 @@ input::placeholder {
 
 .work-card-desktop-image:hover {
   transform: scale(1.05, 1.05);
-}
-
-.nav-items-ul li:first-child {
-  margin-right: auto;
-}
-
-@keyframes rotate {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @media screen and (max-width: 500px) {
