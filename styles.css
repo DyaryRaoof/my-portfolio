@@ -34,10 +34,17 @@ header li {
 .left-nav-items a {
   text-decoration: none;
   color: #344563;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
 }
 
 #my-logo-nav-item {
   flex: 10;
+}
+
+.left-nav-items a:hover {
+  color: #4053fc;
 }
 
 #my-logo-nav-item a {
@@ -146,6 +153,10 @@ form > * {
   font-weight: 600;
 }
 
+.work-card-languages-ul li:hover {
+  transform: translate(3px);
+}
+
 #hero-area-content li {
   padding-right: 10px;
   flex: 0;
@@ -178,10 +189,6 @@ form > * {
 .work-card-languages-ul {
   list-style: none;
   color: #6070ff;
-}
-
-.work-card-languages-ul li:hover {
-  transform: translate(3px);
 }
 
 .work-card-top-links-2-3 {
@@ -352,16 +359,6 @@ input::placeholder {
 #contact-section-container {
   background-color: white;
   margin-top: -126px;
-}
-
-.left-nav-items a {
-  transition-property: color;
-  transition-duration: 0.3s;
-  transition-delay: 0.1s;
-}
-
-.left-nav-items a:hover {
-  color: #4053fc;
 }
 
 .work-card-desktop-image:hover {
