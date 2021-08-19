@@ -40,7 +40,18 @@ header li {
 }
 
 #my-logo-nav-item {
-  flex: 10;
+  animation-name: rotate;
+  animation-duration: 1s;
+}
+
+.nav-items-ul li:first-child {
+  margin-right: auto;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .left-nav-items a:hover {
