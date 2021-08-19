@@ -346,7 +346,19 @@ input::placeholder {
   margin-top: -126px;
 }
 
-/* i have already implemented the desktop version. */
+.left-nav-items a {
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
+}
+
+.left-nav-items a:hover {
+  color: #4053fc;
+}
+
+.work-card-desktop-image:hover {
+  transform: scale(1.05, 1.05);
+}
 
 @media screen and (max-width: 500px) {
   .left-nav-items {
