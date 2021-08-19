@@ -34,10 +34,17 @@ header li {
 .left-nav-items a {
   text-decoration: none;
   color: #344563;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
 }
 
 #my-logo-nav-item {
   flex: 10;
+}
+
+.left-nav-items a:hover {
+  color: #4053fc;
 }
 
 #my-logo-nav-item a {
@@ -144,6 +151,10 @@ form > * {
 .work-card-tonic-top-links li:first-child {
   list-style: none;
   font-weight: 600;
+}
+
+.work-card-languages-ul li:hover {
+  transform: translate(3px);
 }
 
 #hero-area-content li {
@@ -316,6 +327,10 @@ form > * {
   color: #ebebff;
 }
 
+#contact-detail:hover {
+  transform: translate(50px);
+}
+
 form {
   flex-direction: column;
   align-items: center;
@@ -346,7 +361,9 @@ input::placeholder {
   margin-top: -126px;
 }
 
-/* i have already implemented the desktop version. */
+.work-card-desktop-image:hover {
+  transform: scale(1.05, 1.05);
+}
 
 @media screen and (max-width: 500px) {
   .left-nav-items {
