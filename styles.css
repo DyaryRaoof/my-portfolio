@@ -180,6 +180,10 @@ form > * {
   color: #6070ff;
 }
 
+.work-card-languages-ul li:hover {
+  transform: translate(3px);
+}
+
 .work-card-top-links-2-3 {
   color: #6b778c;
 }
@@ -314,6 +318,10 @@ form > * {
   font-weight: normal;
   font-size: 20px;
   color: #ebebff;
+}
+
+#contact-detail:hover {
+  transform: translate(50px);
 }
 
 form {
