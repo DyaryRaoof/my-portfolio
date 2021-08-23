@@ -34,6 +34,10 @@ use the command live-serve in the VS code terminal
 
 run live-server.
 
+### Live Demo
+
+check out this link: https://dyaryraoof.github.io/my-portfolio/
+
 ## Authors
 
 👤 **Dyary Raoof Bayz**
