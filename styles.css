@@ -411,6 +411,10 @@ input::placeholder {
   color: white;
 }
 
+.display-none {
+  display: none !important;
+}
+
 @media screen and (max-width: 500px) {
   .left-nav-items {
     display: none;
