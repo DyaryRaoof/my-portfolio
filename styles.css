@@ -376,6 +376,41 @@ input::placeholder {
   transform: scale(1.05, 1.05);
 }
 
+#popup-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+#popup-nav-ul img {
+  margin-left: 80vw;
+}
+
+#popup-nav-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 10%;
+  width: 100vw;
+}
+
+#popup-nav-ul li {
+  padding-top: 20px;
+}
+
+#popup-nav-ul li a {
+  text-decoration: none;
+  color: white;
+}
+
 @media screen and (max-width: 500px) {
   .left-nav-items {
     display: none;
