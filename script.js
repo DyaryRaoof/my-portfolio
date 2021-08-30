@@ -5,13 +5,12 @@ const portfolioItem = document.querySelector('#portfolio-item');
 const aboutItem = document.querySelector('#about-item');
 const contactItem = document.querySelector('#contact-item');
 
-
-function displayMenu (){
-    popupNav.classList.remove('display-none');
+function displayMenu() {
+  popupNav.classList.remove('display-none');
 }
 
-function hideMenu (){
-    popupNav.classList.add('display-none');
+function hideMenu() {
+  popupNav.classList.add('display-none');
 }
 
 hamburger.addEventListener('click', displayMenu);

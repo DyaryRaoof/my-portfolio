@@ -385,8 +385,8 @@ input::placeholder {
   mix-blend-mode: multiply;
   height: 100vh;
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   z-index: 1;
 }
 
@@ -409,10 +409,6 @@ input::placeholder {
 #popup-nav-ul li a {
   text-decoration: none;
   color: white;
-}
-
-.display-none {
-  display: none !important;
 }
 
 @media screen and (max-width: 500px) {
