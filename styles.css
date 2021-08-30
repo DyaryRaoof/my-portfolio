@@ -383,6 +383,7 @@ input::placeholder {
   justify-content: flex-start;
   background-color: #6070ff;
   mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
   height: 100vh;
   position: absolute;
   left: 0;
