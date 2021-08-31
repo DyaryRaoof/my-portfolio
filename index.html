@@ -19,7 +19,7 @@
         </script>
     </head>
     <body>
-        <!-- <div class="body-wrapper">
+        <div class="body-wrapper">
             <nav id="popup-nav" class="display-none">
                 <ul id="popup-nav-ul">
                     <li id="close"><img src="images/mobile-nav-close-button.png"
@@ -123,7 +123,7 @@
                             <li>css</li>
                             <li>javaScript</li>
                         </ul>
-                        <button class="styled-button" type="button">See Project</button>
+                        <button class="styled-button see-project" type="button">See Project</button>
                     </div>
                 </section>
 
@@ -154,7 +154,7 @@
                             <li>css</li>
                             <li>javaScript</li>
                         </ul>
-                        <button class="styled-button" type="button">See Project</button>
+                        <button class="styled-button see-project" type="button">See Project</button>
                     </div>
                 </section>
 
@@ -185,7 +185,7 @@
                             <li>css</li>
                             <li>javaScript</li>
                         </ul>
-                        <button class="styled-button" type="button">See Project</button>
+                        <button class="styled-button see-project" type="button">See Project</button>
                     </div>
                 </section>
 
@@ -216,7 +216,7 @@
                             <li>css</li>
                             <li>javaScript</li>
                         </ul>
-                        <button class="styled-button" type="button">See Project</button>
+                        <button class="styled-button see-project" type="button">See Project</button>
                     </div>
                 </section>
 
@@ -323,11 +323,11 @@
                     </form>
                 </section>
             </div>
-        </div> -->
-        <div id="popup-wrapper">
+        </div>
+        <div class="display-none" id="popup-wrapper">
             <div id="popup-header">
                 <h1>Tonic</h1>
-                <img src="images/mobile-nav-close-button.png" alt="close popup
+                <img id="popup-window-close-button" src="images/Icon-close-popup-detail.png" alt="close popup
                     button">
             </div>
             <ul id="popup-sub-header" class="flex work-card-tonic-top-links">
@@ -335,9 +335,10 @@
                 <li class="work-card-top-links-2-3">Back End Dev</li>
                 <li class="work-card-top-links-2-3">2015</li>
             </ul>
-
+            
             <img id="popup-image" src="images/popup-main-image.png" alt="pop up
                 main image">
+            <div class="popup-body">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
                 Lorem Ipsum has been the industry's standard dummy text ever
@@ -363,6 +364,7 @@
                 printer took a
                 galley of type and scrambled it 1960s with the relea
             </p>
+            <div class="popup-footer">
             <ul id="popup-technologies">
                 <li>html</li>
                 <li>Ruby on rails</li>
@@ -375,6 +377,8 @@
                 <button>See Source<img src="images/icon-github-blue.png"
                         alt="Github"></button>
             </div>
+        </div>
+        </div>
         </div>
         <script src="script.js" type="text/javascript"></script>
     </body>

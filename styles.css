@@ -416,11 +416,20 @@ input::placeholder {
   display: none !important;
 }
 
+.opacity-main-content {
+  opacity: 0.1;
+}
+
 #popup-wrapper {
   margin: 25px;
   border-radius: 16px;
   background-color: white;
   padding: 16px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+
 }
 
 #popup-header {
@@ -552,5 +561,18 @@ input::placeholder {
   }
 }
 
+
 @media screen and (min-width: 501px) {
+  #popup-wrapper {
+    margin: 100px;
+  }
+  .popup-body {
+    display: flex;
+    margin: 100px 20px;
+  }
+  .popup-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
 }
