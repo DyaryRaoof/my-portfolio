@@ -128,16 +128,3 @@ for (let i = 0; i < seeProjectButton.length; i += 1) {
 }
 
 popupWindowCloseButton.addEventListener('click', togglePopup);
-
-form.addEventListener('submit', function(event) {
-  let lowerCase = emailInput.value.toLowerCase();
-
-  if(lowerCase !== emailInput.value){
-    formEmailErrorSpan.classList.remove('display-none');
-    formEmailErrorSpan.textContent = 'Email needs to be in lower case';
-    event.preventDefault();
-  }else{
-    formEmailErrorSpan.classList.add('display-none');
-    formEmailErrorSpan.textContent = '';
-  }
-});
