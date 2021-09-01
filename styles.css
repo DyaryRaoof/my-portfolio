@@ -498,6 +498,13 @@ input::placeholder {
   margin-left: 10px;
 }
 
+form span {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 6px;
+}
+
 @media screen and (max-width: 500px) {
   .left-nav-items {
     display: none;

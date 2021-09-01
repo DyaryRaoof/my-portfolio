@@ -316,8 +316,10 @@
                         class="flex">
                         <input name="name" type="text" placeholder="full name"
                             maxlength="30" required>
-                        <input name="email" type="email" placeholder="email"
+                        <input id="email" name="email" type="email"
+                            placeholder="email"
                             required>
+                        <span id="form-email-error-span" class="display-none"></span>
                         <textarea
                             name="msg"
                             placeholder="Write your message here..."

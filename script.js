@@ -39,6 +39,10 @@ const popupWindowTechonologies4 = document.querySelector(
   '#popup-window-technologies4',
 );
 
+const form = document.forms[0];
+const emailInput = document.querySelector('#email');
+const formEmailErrorSpan = document.querySelector('#form-email-error-span');
+
 const cardObjectsArray = [{
   name: 'Tonic',
   languages: ['Canopy', 'Back End Dev', '2015'],
@@ -124,3 +128,16 @@ for (let i = 0; i < seeProjectButton.length; i += 1) {
 }
 
 popupWindowCloseButton.addEventListener('click', togglePopup);
+
+form.addEventListener('submit', function(event) {
+  let lowerCase = emailInput.value.toLowerCase();
+
+  if(lowerCase !== emailInput.value){
+    formEmailErrorSpan.classList.remove('display-none');
+    formEmailErrorSpan.textContent = 'Email needs to be in lower case';
+    event.preventDefault();
+  }else{
+    formEmailErrorSpan.classList.add('display-none');
+    formEmailErrorSpan.textContent = '';
+  }
+});
