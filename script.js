@@ -39,7 +39,7 @@ const popupWindowTechonologies4 = document.querySelector(
   '#popup-window-technologies4',
 );
 
-const cardObject1 = {
+const cardObjectsArray = [{
   name: 'Tonic',
   languages: ['Canopy', 'Back End Dev', '2015'],
   description:
@@ -48,9 +48,8 @@ const cardObject1 = {
   technologies: ['html', 'css', 'javascript'],
   liveVersion: '',
   linkToSource: '',
-};
-
-const cardObject2 = {
+},
+{
   name: 'Multi-Post Stories',
   languages: ['Facebook', 'Full Stack Dev', '2015'],
   description:
@@ -59,9 +58,8 @@ const cardObject2 = {
   technologies: ['html', 'Ruby on Rails', 'css', 'javascript'],
   liveVersion: '',
   linkToSource: '',
-};
-
-const cardObject3 = {
+},
+{
   name: 'Facebook 360',
   languages: ['Facebook', 'Full Stack Dev', '2015'],
   description:
@@ -70,9 +68,8 @@ const cardObject3 = {
   technologies: ['html', 'Ruby on Rails', 'css', 'javascript'],
   liveVersion: '',
   linkToSource: '',
-};
-
-const cardObject4 = {
+},
+{
   name: 'Uber Navigation',
   languages: ['Uber', 'Lead Developer', '2018'],
   description:
@@ -81,9 +78,8 @@ const cardObject4 = {
   technologies: ['html', 'Ruby on Rails', 'css', 'javascript'],
   liveVersion: '',
   linkToSource: '',
-};
-
-const cardObjectsArray = [cardObject1, cardObject2, cardObject3, cardObject4];
+},
+];
 
 function displayMenu() {
   popupNav.classList.remove('display-none');
