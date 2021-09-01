@@ -113,6 +113,13 @@ form > * {
   justify-content: flex-start;
 }
 
+form span {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 6px;
+}
+
 .about-drop-down-icons-middle span {
   background: #f7f7f9;
   padding: 10px;
@@ -496,13 +503,6 @@ input::placeholder {
 
 #popup-wrapper button > img {
   margin-left: 10px;
-}
-
-form span {
-  background-color: red;
-  color: white;
-  padding: 5px;
-  border-radius: 6px;
 }
 
 @media screen and (max-width: 500px) {
