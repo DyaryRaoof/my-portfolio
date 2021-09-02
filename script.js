@@ -143,27 +143,32 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-function storeFormDataLocally(){
-  let formData = {name : nameInput.value, email: emailInput.value, description: descriptionInput.value};
+function storeFormDataLocally() {
+  const formData = {
+    name: nameInput.value,
+    email: emailInput.value,
+    description: descriptionInput.value,
+  };
+
   localStorage.setItem('formData', JSON.stringify(formData));
 }
 
-nameInput.addEventListener('input', function(){
+nameInput.addEventListener('input', () => {
   storeFormDataLocally();
-})
+});
 
-emailInput.addEventListener('input', function(){
+emailInput.addEventListener('input', () => {
   storeFormDataLocally();
-})
+});
 
-descriptionInput.addEventListener('input', function(){
+descriptionInput.addEventListener('input', () => {
   storeFormDataLocally();
-})
+});
 
-window.addEventListener('load',function () {
+window.addEventListener('load', () => {
   const data = localStorage.getItem('formData');
   const parseData = JSON.parse(data);
   nameInput.value = parseData.name;
   emailInput.value = parseData.email;
   descriptionInput.value = parseData.description;
-})
+});
