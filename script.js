@@ -159,3 +159,11 @@ emailInput.addEventListener('input', function(){
 descriptionInput.addEventListener('input', function(){
   storeFormDataLocally();
 })
+
+window.addEventListener('load',function () {
+  const data = localStorage.getItem('formData');
+  const parseData = JSON.parse(data);
+  nameInput.value = parseData.name;
+  emailInput.value = parseData.email;
+  descriptionInput.value = parseData.description;
+})
