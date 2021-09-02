@@ -10,7 +10,6 @@ const bodyWrapper = document.querySelector('.body-wrapper');
 const popupWindowCloseButton = document.querySelector(
   '#popup-window-close-button',
 );
-
 const popupWindowHeader = document.querySelector('#popup-window-header');
 const popupWindowLanguages1 = document.querySelector(
   '#popup-window-languages1',
@@ -21,7 +20,6 @@ const popupWindowLanguages2 = document.querySelector(
 const popupWindowLanguages3 = document.querySelector(
   '#popup-window-languages3',
 );
-
 const popUpImage = document.querySelector('#popup-image');
 const popupWidowParagraphDetail = document.querySelector(
   '#popup-window-paragraph-detail',
@@ -41,6 +39,9 @@ const popupWindowTechonologies4 = document.querySelector(
 
 const form = document.forms[0];
 const emailInput = document.querySelector('#email');
+const nameInput = document.querySelector('#form-name');
+const descriptionInput = document.querySelector('#form-description');
+
 const formEmailErrorSpan = document.querySelector('#form-email-error-span');
 
 const cardObjectsArray = [{
@@ -141,3 +142,20 @@ form.addEventListener('submit', (event) => {
     formEmailErrorSpan.textContent = '';
   }
 });
+
+function storeFormDataLocally(){
+  let formData = {name : nameInput.value, email: emailInput.value, description: descriptionInput.value};
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+nameInput.addEventListener('input', function(){
+  storeFormDataLocally();
+})
+
+emailInput.addEventListener('input', function(){
+  storeFormDataLocally();
+})
+
+descriptionInput.addEventListener('input', function(){
+  storeFormDataLocally();
+})
