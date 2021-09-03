@@ -312,7 +312,8 @@
                         coding.
                         I’d love to help with it
                     </p>
-                    <form action="https://formspree.io/f/mzbykgne" method="POST"
+                    <form action="https://formspree.io/f/mzbykgne"
+                        method="POST"
                         class="flex">
                         <input id="form-name" name="name" type="text"
                             placeholder="full name"
@@ -320,12 +321,13 @@
                         <input id="email" name="email" type="email"
                             placeholder="email"
                             required>
-                        <span id="form-email-error-span" class="display-none"></span>
                         <textarea id="form-description"
                             name="msg"
                             placeholder="Write your message here..."
                             maxlength="500"
                             required></textarea>
+                        <span id="form-email-error-span" class="display-none"
+                            aria-live="polite"></span>
                         <button type="submit" class="styled-button">Get In Touch</button>
                     </form>
                 </section>
