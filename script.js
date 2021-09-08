@@ -122,7 +122,7 @@ portfolioItem.addEventListener('click', hideMenu);
 aboutItem.addEventListener('click', hideMenu);
 contactItem.addEventListener('click', hideMenu);
 
-for (let i = 0; i < 7; i += 1) {
+for (let i = 0; i < seeProjectButton.length; i += 1) {
   seeProjectButton[i].addEventListener('click', () => {
     togglePopup(i);
   });
