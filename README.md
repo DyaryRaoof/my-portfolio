@@ -44,7 +44,7 @@ check out this link: https://dyaryraoof.github.io/my-portfolio/
 
 - GitHub: [@DyaryRaoof](https://github.com/DyaryRaoof)
 - Twitter: [@DyaryRaoof](https://twitter.com/DyaryRaoof)
-- LinkedIn: [dyary-raoof](www.linkedin.com/in/dyary-raoof)
+- LinkedIn: [@DyaryRaoof](https://linkedin.com/in/DyaryRaoof)
 
 ## 🤝 Contributing
 
