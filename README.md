@@ -44,7 +44,7 @@ check out this link: https://dyaryraoof.github.io/my-portfolio/
 
 - GitHub: [@DyaryRaoof](https://github.com/DyaryRaoof)
 - Twitter: [@DyaryRaoof](https://twitter.com/DyaryRaoof)
-- LinkedIn: [dyary-raoof-baiz-agha-b79444155](https://www.linkedin.com/in/dyary-raoof-baiz-agha-b79444155)
+- LinkedIn: [dyary-raoof](www.linkedin.com/in/dyary-raoof)
 
 ## 🤝 Contributing
 
