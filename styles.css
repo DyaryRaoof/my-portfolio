@@ -487,6 +487,10 @@ input::placeholder {
   justify-content: center;
 }
 
+button {
+  cursor: pointer;
+}
+
 #popup-wrapper button {
   display: flex;
   justify-content: space-between;
@@ -503,6 +507,11 @@ input::placeholder {
 
 #popup-wrapper button > img {
   margin-left: 10px;
+}
+
+.work-card-desktop-image:nth-child(1) {
+  width: 50%;
+  height: auto;
 }
 
 @media screen and (max-width: 500px) {
@@ -538,6 +547,8 @@ input::placeholder {
 
   .work-card-mobile-image {
     display: block;
+    width: 100%;
+    height: auto;
   }
 
   #about-section {

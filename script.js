@@ -43,16 +43,20 @@ const nameInput = document.querySelector('#form-name');
 const descriptionInput = document.querySelector('#form-description');
 
 const formEmailErrorSpan = document.querySelector('#form-email-error-span');
+const seeLiveButton = document.querySelector('#see-live');
+const seeSourceButton = document.querySelector('#see-source');
 
 const cardObjectsArray = [{
-  name: 'Tonic',
-  languages: ['Canopy', 'Back End Dev', '2015'],
+  name: 'Todo List',
+  languages: ['Microverse', 'Front End', '2021'],
   description:
-    'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  image: 'images/first-work-card.png',
+    'To-do list" is a tool that helps to organize your day'
+    + ' It simply lists the things that you need to do and allows you to mark them as complete'
+    + 'It is created with HTML , CSS , JS and webpack and NPM',
+  image: 'images/todo-list-screenshot.png',
   technologies: ['html', 'css', 'javascript'],
-  liveVersion: '',
-  linkToSource: '',
+  liveVersion: 'https://dyaryraoof.github.io/my-todo-list-review/dist/',
+  linkToSource: 'https://github.com/DyaryRaoof/my-todo-list-review',
 },
 {
   name: 'Multi-Post Stories',
@@ -113,6 +117,8 @@ function togglePopup(i) {
     popupWindowTechonologies4.style.display = 'none';
   }
   popupWindowHeader.textContent = cardObjectsArray[i].name;
+  seeLiveButton.onclick = () => { window.open(cardObjectsArray[i].liveVersion, '_blank'); };
+  seeSourceButton.onclick = () => { window.open(cardObjectsArray[i].linkToSource, '_blank'); };
   popupWrapper.scrollIntoView();
 }
 
@@ -168,7 +174,9 @@ descriptionInput.addEventListener('input', () => {
 window.addEventListener('load', () => {
   const data = localStorage.getItem('formData');
   const parseData = JSON.parse(data);
-  nameInput.value = parseData.name;
-  emailInput.value = parseData.email;
-  descriptionInput.value = parseData.description;
+  if (parseData) {
+    nameInput.value = parseData.name;
+    emailInput.value = parseData.email;
+    descriptionInput.value = parseData.description;
+  }
 });
