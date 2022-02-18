@@ -48,7 +48,7 @@ const seeSourceButton = document.querySelector('#see-source');
 
 const cardObjectsArray = [{
   name: 'Todo List',
-  languages: ['Microverse', 'Front End', '2021'],
+  languages: ['Self-Employed', 'Front End', '2021'],
   description:
     'To-do list" is a tool that helps to organize your day'
     + ' It simply lists the things that you need to do and allows you to mark them as complete'
@@ -59,14 +59,14 @@ const cardObjectsArray = [{
   linkToSource: 'https://github.com/DyaryRaoof/my-todo-list-review',
 },
 {
-  name: 'Multi-Post Stories',
-  languages: ['Facebook', 'Full Stack Dev', '2015'],
+  name: 'Budget',
+  languages: ['Self-Employed', 'Back End Dev', '2022'],
   description:
-    'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-  image: './images/second-work-card-desktop.png',
-  technologies: ['html', 'Ruby on Rails', 'css', 'javascript'],
-  liveVersion: '',
-  linkToSource: '',
+    'This is a Ruby on Rails capstone project from Microverse curriculum. It is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+  image: './images/budget_screenshot.png',
+  technologies: ['html', 'Ruby on Rails', 'css', 'Bootstrap'],
+  liveVersion: 'https://budget-dyary.herokuapp.com/',
+  linkToSource: 'https://github.com/DyaryRaoof/budget',
 },
 {
   name: 'Facebook 360',
