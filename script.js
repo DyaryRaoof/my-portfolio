@@ -47,16 +47,17 @@ const seeLiveButton = document.querySelector('#see-live');
 const seeSourceButton = document.querySelector('#see-source');
 
 const cardObjectsArray = [{
-  name: 'Todo List',
-  languages: ['Self-Employed', 'Front End', '2021'],
+  name: 'Starlite Shows',
+  languages: ['Self-Employed', 'Front End', '2022'],
   description:
-    'To-do list" is a tool that helps to organize your day'
-    + ' It simply lists the things that you need to do and allows you to mark them as complete'
-    + 'It is created with HTML , CSS , JS and webpack and NPM',
-  image: 'images/todo-list-screenshot.png',
+    '   The website displays the seasons and episodes of three chosen TV shows,'
+    + 'as well as having a comment section for every episode connected to the involvement API,'
+    + ' the project was built with HTML, CSS, JavaScript,'
+    + 'bundled with Webpack and tested with Jest.',
+  image: 'https://github.com/DyaryRaoof/javascript-capstone/raw/development/app_screenshot.png',
   technologies: ['html', 'css', 'javascript'],
-  liveVersion: 'https://dyaryraoof.github.io/my-todo-list-review/dist/',
-  linkToSource: 'https://github.com/DyaryRaoof/my-todo-list-review',
+  liveVersion: 'https://dyaryraoof.github.io/javascript-capstone/dist',
+  linkToSource: 'https://github.com/DyaryRaoof/javascript-capstone',
 },
 {
   name: 'Budget',
@@ -69,24 +70,32 @@ const cardObjectsArray = [{
   linkToSource: 'https://github.com/DyaryRaoof/budget',
 },
 {
-  name: 'Facebook 360',
-  languages: ['Facebook', 'Full Stack Dev', '2015'],
+  name: 'Motors',
+  languages: ['Self Employed', 'Full Stack Dev', '2022'],
   description:
-    "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-  image: 'images/third-work-card-desktop.png',
-  technologies: ['html', 'Ruby on Rails', 'css', 'javascript'],
-  liveVersion: '',
-  linkToSource: '',
+    ' This is a website that allows users to login, see list of motorcycle models,'
+    + 'register a motorcycle or delete motorcycles,'
+    + 'create reservations for motorcycles with city and date and see list of reservation.'
+    + 'All of this is handled with react and redux and gets info from the back-end api.'
+    + 'this project was built as the final capstone project for the Microverse full-stack developer'
+    + 'curriculum',
+  image: 'https://github.com/DyaryRaoof/motors-frontend/raw/dev/screenshot1.png',
+  technologies: ['html', 'Ruby on Rails', 'React js', 'javascript'],
+  liveVersion: 'https://motors-frontend-d-p-m.herokuapp.com/',
+  linkToSource: 'https://github.com/DyaryRaoof/motors-frontend',
 },
 {
-  name: 'Uber Navigation',
-  languages: ['Uber', 'Lead Developer', '2018'],
+  name: 'Moros Back End',
+  languages: ['Self Employed', 'Full Stack Dev', '2022'],
   description:
-    'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-  image: 'images/fourth-work-card-desktop.png',
-  technologies: ['html', 'Ruby on Rails', 'css', 'javascript'],
-  liveVersion: '',
-  linkToSource: '',
+    'This is a Ruby on Rails final capstone project from Microverse curriculum.'
+    + 'This is a API that allows users to login, get list of motorcycle models,'
+    + 'register a motorcycle or delete motorcycles,'
+    + 'create reservations for motorcycles with city and date and get list of reservation.',
+  image: 'https://github.com/DyaryRaoof/motors-frontend/raw/dev/screenshot1.png',
+  technologies: ['Ruby on Rails', 'Ruby'],
+  liveVersion: 'https://motors-frontend-d-p-m.herokuapp.com/',
+  linkToSource: 'https://github.com/DyaryRaoof/motors-backend',
 },
 ];
 
